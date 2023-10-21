@@ -1,5 +1,9 @@
 # WireGuard installer
-
+```bash
+curl -O https://raw.githubusercontent.com/paveldtsn/wg/master/wireguard-install.sh
+chmod +x wireguard-install.sh
+./wireguard-install.sh
+```
 ![Lint](https://github.com/angristan/wireguard-install/workflows/Lint/badge.svg)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/angristan)
 
@@ -30,7 +34,7 @@ Supported distributions:
 Download and execute the script. Answer the questions asked by the script and it will take care of the rest.
 
 ```bash
-curl -O https://github.com/paveldtsn/wg/blob/master/wireguard-install.sh
+curl -O https://raw.githubusercontent.com/paveldtsn/wg/master/wireguard-install.sh
 chmod +x wireguard-install.sh
 ./wireguard-install.sh
 ```
