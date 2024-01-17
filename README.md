@@ -24,3 +24,19 @@ vi /etc/shadowsocks-libev/config.json
 service shadowsocks-libev restart
 service shadowsocks-libev status
 ```
+# V2Ray installer
+{
+"server": ["127.0.0.1"],
+"mode":"tcp_and_udp",
+"server_port":9388,
+"local_port":1080,
+"password":"password",
+"timeout":300,
+"method":"xchacha20-ietf-poly1305",
+"nameserver":"1.1.1.1",
+"no_delay": true,
+"fast_open": true,
+"reuse_port": true,
+"plugin":"/etc/shadowsocks-libev/v2ray-plugin",
+"plugin_opts:""server"
+}
