@@ -25,6 +25,7 @@ service shadowsocks-libev restart
 service shadowsocks-libev status
 ```
 # V2Ray installer
+```bash
 {
 "server": ["127.0.0.1"],
 "mode":"tcp_and_udp",
@@ -40,3 +41,4 @@ service shadowsocks-libev status
 "plugin":"/etc/shadowsocks-libev/v2ray-plugin",
 "plugin_opts:""server"
 }
+```
